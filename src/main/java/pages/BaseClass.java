@@ -8,7 +8,7 @@ public abstract class BaseClass {
 	public BaseClass() throws IOException 
 	{   
 		
-		prop=new Properties();
+		prop=new Properties();//
 		String filepath=System.getProperty("user.dir")+"\\Config.properties";
 		FileInputStream fis= new FileInputStream(filepath);
 		prop.load(fis);
